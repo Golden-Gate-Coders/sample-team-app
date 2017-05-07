@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get "/pages/zach", to: "zachs#zach"
 
 
+  get '/eddie', to: 'eddies#index'
 
   get '/index', to: 'kittens#index'
   get '/play', to: 'kittens#play'
