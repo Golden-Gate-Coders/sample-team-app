@@ -18,4 +18,6 @@ Rails.application.routes.draw do
 
   get '/editbranch', to: 'branches#edit'
 
+  resources :kens
+
 end
