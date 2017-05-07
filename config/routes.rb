@@ -7,10 +7,7 @@ Rails.application.routes.draw do
 
   get '/show', to: 'pages#show'
 
-
-
   get "/pages/zach", to: "zach#zach"
-
 
   get '/index', to: 'kittensindex'
 
