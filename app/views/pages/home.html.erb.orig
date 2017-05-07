@@ -1,0 +1,12 @@
+<h1>ClassList</h1>
+
+<h3>List of students:</h3>
+<ul>
+<<<<<<< HEAD
+  <li>Ken Lu</li>
+=======
+  <li>Monica</li>
+>>>>>>> b6f50afb914be32bbab1391e7409c13cb6507c39
+  <li></li>
+  <li></li>
+</ul>
