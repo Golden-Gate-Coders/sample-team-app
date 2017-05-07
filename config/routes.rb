@@ -16,4 +16,6 @@ Rails.application.routes.draw do
 
   get '/index', to: 'kittens#index'
 
+  get '/editbranch', to: 'branches#edit'
+
 end
