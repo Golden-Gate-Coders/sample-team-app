@@ -11,6 +11,11 @@ Rails.application.routes.draw do
 
   get '/edit', to: 'pages#edit'
 
+
+
+
+
+
   get "/pages/zach", to: "zachs#zach"
 
 
@@ -19,5 +24,6 @@ Rails.application.routes.draw do
   get '/play', to: 'kittens#play'
 
   get '/editbranch', to: 'branches#edit'
+
 
 end
