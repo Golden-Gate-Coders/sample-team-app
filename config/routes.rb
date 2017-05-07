@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get '/show', to: 'pages#show'
   get '/kens-show', to: 'kens_pages#show'
+  get '/kens/edit', to: 'kens_pages#edit'
 
   get '/today', to: 'todos#today'
 
