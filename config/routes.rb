@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   root to: "pages#home"
   get '/show', to: 'pages#show'
+  get '/kens-show', to: 'kens_pages#show'
 end
